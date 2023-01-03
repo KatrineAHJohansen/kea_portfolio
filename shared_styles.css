@@ -1,17 +1,39 @@
 :root {
-    --text-color: #2E2E2E;
-    --bg-color: #F0EFEF;
-  }
+  --text-color: #2e2e2e;
+  --bg-color: #f0efef;
+}
 
-  body {
-    font-family: termina, sans-serif;
-    color: var(--text-color);
-    background: var(--bg-color);
-    transition: 0.3s ease-out;
-    overflow-x: hidden;
-    max-width: 100%;
-    width: 100%;
-    overscroll-behavior: none;
-  }
+body {
+  font-family: termina, sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+  max-width: 100%;
+  width: 100%;
+}
 
-  
+/*HEADER*/
+
+.header_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 7rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-left: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+.header_container p {
+  margin-top: 10rem;
+  margin-left: 40rem;
+}
+
+/*PORTFOLIO*/
