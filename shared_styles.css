@@ -1,6 +1,6 @@
 :root {
-  --text-color: #2e2e2e;
-  --bg-color: #f0efef;
+  --text-color: #f0efef;
+  --bg-color: #2e2e2e;
 }
 
 body {
@@ -10,8 +10,14 @@ body {
   max-width: 100%;
   width: 100%;
 }
-/*------------------------------WEBSITE------------------------------*/
-/*----------HEADER----------*/
+
+.header_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-left: 1rem;
+}
+
+/*
 .header_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -35,7 +41,6 @@ h2 {
   margin-left: 40rem;
 }
 
-/*----------PORTFOLIO----------*/
 .portfolio_container {
   background-color: #2e2e2e;
   display: grid;
@@ -55,4 +60,7 @@ img {
   object-fit: contain;
   align-self: center;
   margin-left: 10rem;
+  background-color: #f0efef;
 }
+
+*/
