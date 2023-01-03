@@ -14,27 +14,27 @@ body {
 .header_container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  margin-left: 2rem;
-  height: 30rem;
+  margin-left: 2vw;
+  height: 20vw;
 }
 
 .header_container h2 {
-  font-size: 4rem;
+  font-size: 4vw;
   font-weight: 800;
-  margin-top: 12rem;
+  margin-top: 12vw;
   align-items: center;
 }
 
 li {
   list-style: none;
-  font-size: 0.5rem;
-  margin-left: 10rem;
-  padding: 0.5rem;
+  font-size: 0.5vw;
+  margin-left: 10vw;
+  padding: 0.5vw;
 }
 
 a:link {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 800;
   color: #f0efef;
 }
@@ -48,7 +48,7 @@ a:visited {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #f0efef;
-  height: 10rem;
+  height: 8vw;
 }
 
 /*
