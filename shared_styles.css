@@ -10,30 +10,49 @@ body {
   max-width: 100%;
   width: 100%;
 }
-
-/*HEADER*/
-
+/*------------------------------WEBSITE------------------------------*/
+/*----------HEADER----------*/
 .header_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
 
 h1 {
   font-size: 4rem;
   font-weight: 800;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 400;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .header_container p {
-  margin-top: 10rem;
+  margin-top: 12rem;
   margin-left: 40rem;
 }
 
-/*PORTFOLIO*/
+/*----------PORTFOLIO----------*/
+.portfolio_container {
+  background-color: #2e2e2e;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 30rem;
+}
+.portfolio_container p {
+  color: #f0efef;
+  margin-left: 7rem;
+  margin-top: 10rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+img {
+  width: 50%;
+  object-fit: contain;
+  align-self: center;
+  margin-left: 10rem;
+}
