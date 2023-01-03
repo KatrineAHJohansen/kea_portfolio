@@ -1,0 +1,17 @@
+:root {
+    --text-color: #2E2E2E;
+    --bg-color: #F0EFEF;
+  }
+
+  body {
+    font-family: termina, sans-serif;
+    color: var(--text-color);
+    background: var(--bg-color);
+    transition: 0.3s ease-out;
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+    overscroll-behavior: none;
+  }
+
+  
