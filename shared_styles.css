@@ -25,7 +25,7 @@ main {
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 23rem;
+  height: 21rem;
   margin-top: 3rem;
 }
 
@@ -35,6 +35,7 @@ main {
 
 .overskrift {
   grid-area: 2 / 2 / 3 / 6;
+  text-align: center;
 }
 
 .burgermenu {
@@ -52,7 +53,6 @@ a:link {
   font-size: 4rem;
   font-weight: 800;
   margin-top: 8rem;
-  align-items: center;
   cursor: default;
 }
 
