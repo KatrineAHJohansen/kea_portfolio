@@ -25,7 +25,7 @@ main {
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 20rem;
+  height: 17rem;
   margin-top: 3rem;
 }
 
@@ -176,5 +176,3 @@ a:visited {
 .hover-img:hover figcaption {
   opacity: 1;
 }
-
-
