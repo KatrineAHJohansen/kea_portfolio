@@ -1,0 +1,7 @@
+.middle_container {
+  background: url(img/gitter.webp) right/ /* on the right */ 50% auto /* take only 50% of width */ no-repeat;
+}
+
+.bottom_container {
+  background: url(img/gitter.webp) left/ /* on the right */ 50% auto /* take only 50% of width */ no-repeat;
+}
