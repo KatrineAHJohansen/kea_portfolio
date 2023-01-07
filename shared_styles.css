@@ -1,7 +1,7 @@
 /*GENERELT*/
 :root {
   --text-color: #2e2e2e;
-  --bg-color: #f0efef;
+  --bg-color: #e3e3db;
 }
 
 body {
@@ -27,7 +27,7 @@ main {
   grid-row-gap: 0px;
   height: 20rem;
   margin-top: 2rem;
-  background-color: var(--bg-color);
+  background-color: #f0efef;
 }
 
 #logo {
