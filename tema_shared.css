@@ -17,11 +17,11 @@ p {
   font-size: 1.5rem;
 }
 
-/*GRID CONTAINER 1*/
 .header_container {
   background-color: #f0efef;
 }
 
+/*GRID CONTAINER 1*/
 .top_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -33,6 +33,7 @@ p {
   padding: 4rem;
   border-width: 10px;
 }
+
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
   display: grid;
