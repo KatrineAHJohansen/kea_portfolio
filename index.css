@@ -11,8 +11,9 @@ main {
   background-color: #717e68;
 }
 
-h1 {
+h2 {
   margin-left: 8rem;
+  padding: 2rem 0rem 0rem 0rem;
 }
 
 /* MAIN INDEX*/
@@ -127,4 +128,15 @@ h1 {
 
 .hover-img:hover figcaption {
   opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    margin-left: 1rem;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .header_container h1 {
+    font-size: 3.2rem;
+  }
 }

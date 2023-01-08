@@ -28,6 +28,10 @@ main {
   max-width: 1800px;
   margin-inline: auto;
 }
+
+h1 {
+  font-size: 4rem;
+}
 /*GENERELT SLUT*/
 
 /*HEADER - ALLE SIDER*/
@@ -160,6 +164,7 @@ a:link {
 a:visited {
   color: #e3e3db;
 }
+
 /*HEADER SLUT*/
 
 /*FOOTER*/
