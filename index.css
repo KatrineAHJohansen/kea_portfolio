@@ -14,6 +14,22 @@ main {
 h2 {
   margin-left: 8rem;
   padding: 2rem 0rem 0rem 0rem;
+} 
+
+.body_container a {
+  color: #e3e3db;
+  text-decoration: none;
+}
+
+.body_container a:link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #e3e3db;
+}
+
+.body_container a:visited {
+  color: #e3e3db;
 }
 
 /* MAIN INDEX*/
@@ -138,5 +154,12 @@ h2 {
 
   .header_container h1 {
     font-size: 3.2rem;
+  }
+
+  .body_container {
+    display: grid;
+    grid-column-gap: 2rem;
+    margin-inline: 0.5rem;
+
   }
 }
