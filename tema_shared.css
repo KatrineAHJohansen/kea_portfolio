@@ -13,22 +13,6 @@ p {
   font-size: 1.5rem;
 }
 
-a {
-  color: #2e2e2e;
-  text-decoration: none;
-}
-
-a:link {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: black;
-}
-
-a:visited {
-  color: var(--text-color);
-}
-
 .header_container {
   background-color: #f0efef;
 }
