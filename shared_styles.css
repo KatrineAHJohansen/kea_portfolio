@@ -24,10 +24,17 @@ body {
   width: 100%;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+
 main {
   max-width: 1800px;
   margin-inline: auto;
 }
+
 
 h1 {
   font-size: 4rem;
@@ -46,21 +53,7 @@ li {
   list-style: none;
 }
 
-a {
-  color: #2e2e2e;
-  text-decoration: none;
-}
 
-a:link {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: black;
-}
-
-a:visited {
-  color: var(--text-color);
-}
 
 .navbar {
   min-height: 70px;
