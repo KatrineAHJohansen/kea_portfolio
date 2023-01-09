@@ -7,3 +7,13 @@
   background: url(img/gitter.webp) left/ /* on the right */ 50% auto /* take only 50% of width */ no-repeat;
   background-color: #f0efef;
 }
+
+@media (max-width: 1200px) {
+  .middle_container {
+    background-image: none;
+  }
+
+  .bottom_container {
+    background-image: none;
+  }
+}
