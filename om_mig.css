@@ -55,7 +55,7 @@ main {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     gap: 5rem;
-    padding: 4rem;
+    padding: 5rem;
   }
   
   .div3 {
@@ -76,8 +76,7 @@ main {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    gap: 5rem;
-    padding: 4rem;
+    padding: 3rem;
   }
   
   .div5 {
