@@ -17,6 +17,12 @@ p {
   background-color: #f0efef;
 }
 
+.pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*GRID CONTAINER 1*/
 .top_container {
   display: grid;
@@ -28,6 +34,11 @@ p {
   background-color: #717e68;
   padding: 4rem;
   border-width: 10px;
+}
+
+.top_container img{
+aspect-ratio: 16/9;
+object-fit: cover;
 }
 
 .div1 {
@@ -117,8 +128,4 @@ img {
   }
 }
 
-.pdf {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
