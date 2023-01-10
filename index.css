@@ -80,6 +80,8 @@ h2 {
   position: relative;
   text-align: center;
   width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 .hover-img * {
@@ -160,6 +162,5 @@ h2 {
     display: grid;
     grid-column-gap: 2rem;
     margin-inline: 0.5rem;
-
-  }
+  } 
 }
