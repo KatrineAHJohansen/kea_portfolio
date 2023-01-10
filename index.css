@@ -14,7 +14,7 @@ main {
 h2 {
   margin-left: 8rem;
   padding: 2rem 0rem 0rem 0rem;
-} 
+}
 
 .body_container a {
   color: #e3e3db;
@@ -162,5 +162,5 @@ h2 {
     display: grid;
     grid-column-gap: 2rem;
     margin-inline: 0.5rem;
-  } 
+  }
 }
