@@ -36,9 +36,9 @@ p {
   border-width: 10px;
 }
 
-.top_container img{
-aspect-ratio: 16/9;
-object-fit: cover;
+.top_container img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 .div1 {
@@ -127,5 +127,3 @@ img {
     margin-bottom: 4rem;
   }
 }
-
-

@@ -47,11 +47,6 @@ a:link {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 800;
-  color: black;
-}
-
-a:visited {
-  color: var(--text-color);
 }
 /*GENERELT SLUT*/
 
@@ -177,4 +172,5 @@ li {
   background-color: #717e68;
   text-align: center;
   padding: 2rem;
+  font-weight: 600;
 }
