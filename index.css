@@ -24,7 +24,7 @@ h2 {
 }
 
 .body_container p {
-  padding: 5rem;
+  padding: 2rem;
   grid-area: 1 / 2 / 2 / 3;
   font-size: 1.5rem;
 }
@@ -49,13 +49,5 @@ h2 {
 
   .header_container h1 {
     font-size: 3.2rem;
-  }
-
-  .body_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 2rem;
-    margin-inline: 0.5rem;
   }
 }
